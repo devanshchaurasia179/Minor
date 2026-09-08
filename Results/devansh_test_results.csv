@@ -1,0 +1,17 @@
+Test_Sample,Gesture,Model,Authenticated_As,Correct
+Devansh2-Snap-L01.txt,snap,Random Forest,['REJECTED'],True
+Devansh2-Snap-L01.txt,snap,Gradient Boosting,"['divyesh', 'harshit']",False
+Devansh2-Snap-L01.txt,snap,SVM,['REJECTED'],True
+Devansh2-Snap-L01.txt,snap,MLP Neural Network,['divyesh'],False
+Devansh3-Fist-L01.txt,fist,Random Forest,['saif'],False
+Devansh3-Fist-L01.txt,fist,Gradient Boosting,"['harshit', 'saif']",False
+Devansh3-Fist-L01.txt,fist,SVM,['REJECTED'],True
+Devansh3-Fist-L01.txt,fist,MLP Neural Network,['saif'],False
+Devansh4-Fist-L01 (1).txt,fist,Random Forest,['REJECTED'],True
+Devansh4-Fist-L01 (1).txt,fist,Gradient Boosting,"['harshit', 'saif']",False
+Devansh4-Fist-L01 (1).txt,fist,SVM,['REJECTED'],True
+Devansh4-Fist-L01 (1).txt,fist,MLP Neural Network,['harshit'],False
+Devansh5-Snap-L01.txt,snap,Random Forest,['REJECTED'],True
+Devansh5-Snap-L01.txt,snap,Gradient Boosting,"['divyesh', 'harshit', 'kartik']",False
+Devansh5-Snap-L01.txt,snap,SVM,['REJECTED'],True
+Devansh5-Snap-L01.txt,snap,MLP Neural Network,['kartik'],False
