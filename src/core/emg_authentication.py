@@ -229,7 +229,7 @@ class EMGAuthenticationSystem:
         
         # Extract person name
         person = None
-        for name in ['devansh', 'divyesh', 'harshit', 'kartik', 'saif', 'vanshish']:
+        for name in ['devansh', 'divyesh', 'harshit', 'kartik', 'saif', 'sritiz', 'vanshish']:
             if name in basename:
                 person = name
                 break
@@ -247,7 +247,7 @@ class EMGAuthenticationSystem:
         """Load all EMG data files and extract features"""
         print("Loading EMG data files...")
         
-        all_files = glob.glob(os.path.join(self.data_dir, '*.txt'))
+        all_files = glob.glob(os.path.join(self.data_dir, 'Data', '**', '*.txt'), recursive=True)
         print(f"Found {len(all_files)} files")
         
         data_records = []

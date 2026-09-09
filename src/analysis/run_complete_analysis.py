@@ -176,7 +176,7 @@ def parse_filename(filename):
     basename = os.path.basename(filename).lower()
     
     person = None
-    for name in ['devansh', 'divyesh', 'harshit', 'kartik', 'saif', 'vanshish']:
+    for name in ['devansh', 'divyesh', 'harshit', 'kartik', 'saif', 'sritiz', 'vanshish']:
         if name in basename:
             person = name
             break
@@ -197,7 +197,7 @@ def load_all_data():
     print("="*80)
     
     feature_extractor = EMGFeatureExtractor(sampling_rate=50)
-    all_files = glob.glob('d:/Minor/*.txt')
+    all_files = glob.glob('d:/Minor/Data/**/*.txt', recursive=True)
     
     print(f"\nFound {len(all_files)} files")
     
